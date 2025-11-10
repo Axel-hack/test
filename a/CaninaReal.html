@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estética Canina Patitas Felices</title>
+   <!-- ✅ GOOGLE ANALYTICS -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VYZ3YW0DEH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VYZ3YW0DEH');
+  </script>
+  <!-- ✅ FIN GOOGLE ANALYTICS -->
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #5b3a0e;
+      --color-secondary: #ffe6a7;
+      --color-accent: #28a745;
+      --color-background: #fffaf5;
+    }
+    body {
+      background-color: var(--color-background);
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background-color: var(--color-secondary) !important;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: var(--color-primary) !important;
+    }
+    .hero {
+      background: linear-gradient(rgba(91, 58, 14, 0.4), rgba(91, 58, 14, 0.6)), url('https://placehold.co/1920x600/5b3a0e/ffffff?text=Cuidamos+a+tu+mejor+amigo') center/cover no-repeat;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card img {
+      height: 250px;
+      object-fit: cover;
+      border-top-left-radius: var(--bs-card-border-radius);
+      border-top-right-radius: var(--bs-card-border-radius);
+    }
+    section {
+      padding: 60px 0;
+    }
+    .precio {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: var(--color-accent);
+    }
+    .text-primary {
+        color: var(--color-primary) !important;
+    }
+    .btn-warning {
+        background-color: var(--color-secondary);
+        border-color: var(--color-secondary);
+        color: var(--color-primary);
+        font-weight: bold;
+    }
+    .btn-warning:hover {
+        background-color: #ffda7f;
+        border-color: #ffda7f;
+    }
+    .btn-success {
+        background-color: var(--color-accent);
+        border-color: var(--color-accent);
+    }
+    .btn-success:hover {
+        background-color: #1e7e34;
+        border-color: #1e7e34;
+    }
+    footer {
+      background-color: var(--color-primary);
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .carousel-item-gallery {
+      height: 450px;
+      background-color: var(--color-background);
+    }
+    .carousel-item-gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+    @media (max-width: 576px) {
+        .carousel-caption {
+            display: none !important;
+        }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🐶 Patitas Felices</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="p-5 text-center hero rounded-0" style="margin-top: 56px;">
+  <div>
+    <h1 class="display-4 fw-bold">Cuidamos a tu mejor amigo 🐾</h1>
+    <p class="lead">Baños, cortes, spa y amor garantizado para tu mascota</p>
+    <a href="#servicios" class="btn btn-warning btn-lg mt-3">Ver Servicios</a>
+  </div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="container text-center">
+  <h2 class="mb-4 text-primary">Nuestros Servicios</h2>
+  <p class="mb-5">Porque tu peludo merece lo mejor ❤️</p>
+  <div class="row g-4">
+
+    <!-- Servicio 1 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="imagenes/perro11.jpg" class="card-img-top" alt="Baño Canino">
+        <div class="card-body">
+          <h5 class="card-title">Baño Canino</h5>
+          <p class="card-text">Baño con productos hipoalergénicos, secado y perfume.</p>
+          <p class="precio">$5.000</p>
+          <a href="#" class="btn btn-success">Reservar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 2 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="imagenes/perro12.jpg" class="card-img-top" alt="Corte de Pelo Profesional">
+        <div class="card-body">
+          <h5 class="card-title">Corte de Pelo Especializado</h5>
+          <p class="card-text">Corte profesional adaptado a la raza y estilo de tu mascota.</p>
+          <p class="precio">$6.500</p>
+          <a href="#" class="btn btn-success">Reservar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 3 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="imagenes/perro13.jpg" class="card-img-top" alt="Corte y Limado de Uñas">
+        <div class="card-body">
+          <h5 class="card-title">Corte de Uñas</h5>
+          <p class="card-text">Corte y limado cuidadoso para mantener las patitas sanas.</p>
+          <p class="precio">$2.500</p>
+          <a href="#" class="btn btn-success">Reservar</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4 text-primary">Nuestros Clientes Felices 📸</h2>
+    <p class="mb-5">Resultados garantizados: ¡limpios, guapos y contentos! 💛</p>
+
+    <div id="carruselGaleria" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="4"></button>
+      </div>
+
+      <div class="carousel-inner bg-white rounded shadow">
+
+        <div class="carousel-item carousel-item-gallery active">
+          <img src="imagenes/perro1.jpg" class="d-block" alt="Cliente feliz 1">
+          <div class="carousel-caption bg-light bg-opacity-75 rounded p-3 text-dark">
+            <p>⭐️⭐️⭐️⭐️⭐️ — “Mi perrita salió hermosa y huele genial.”</p>
+            <small>- Laura G.</small>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-gallery">
+          <img src="imagenes/perro2.jpg" class="d-block" alt="Cliente feliz 2">
+          <div class="carousel-caption bg-light bg-opacity-75 rounded p-3 text-dark">
+            <p>⭐️⭐️⭐️⭐️⭐️ — “Excelente trato y mucho cariño con los perritos.”</p>
+            <small>- Martín R.</small>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-gallery">
+          <img src="imagenes/perro3.jpg" class="d-block" alt="Cliente feliz 3">
+          <div class="carousel-caption bg-light bg-opacity-75 rounded p-3 text-dark">
+            <p>⭐️⭐️⭐️⭐️⭐️ — “Nunca lo vi tan limpio, el mejor spa canino.”</p>
+            <small>- Sofía P.</small>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-gallery">
+          <img src="imagenes/perro4.jpg" class="d-block" alt="Cliente feliz 4">
+          <div class="carousel-caption bg-light bg-opacity-75 rounded p-3 text-dark">
+            <p>⭐️⭐️⭐️⭐️⭐️ — “El corte fue perfecto y a buen precio.”</p>
+            <small>- Diego L.</small>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-gallery">
+          <img src="imagenes/perro5.jpg" class="d-block" alt="Cliente feliz 5">
+          <div class="carousel-caption bg-light bg-opacity-75 rounded p-3 text-dark">
+            <p>⭐️⭐️⭐️⭐️⭐️ — “Muy profesionales y pacientes.”</p>
+            <small>- Verónica S.</small>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselGaleria" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselGaleria" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Patitas Felices - Estética Canina</p>
+  <div class="mt-3">
+    <button class="btn btn-outline-light me-2">📞 Llamar</button>
+    <button class="btn btn-warning">📅 Reservar</button>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
